@@ -17026,7 +17026,7 @@ a.read-more {
     top: 10%;
     right: 5%;
     transform: scaleX(-1);
-    mix-blend-mode: color-burn;
+    /* mix-blend-mode: color-burn; */
     cursor: pointer;
     transition: mix-blend-mode 5s ease;
     animation: colorBurnToNormal 3s ease-in-out infinite; /* Apply the animation */
