@@ -285,9 +285,8 @@
                         <div class='service-icon'>
                             <i class='fab fa-medapps'></i>
                         </div>
-                        <h2>business intelligence</h2>
-                        <p>intelligence is the key term of this era whether it's ai or bi thing is intelligence which is
-                            always the most important for success.</p>
+                        <h2>Full-Stack Web Development</h2>
+                        <p>I specialize in both frontend and backend development, creating dynamic and responsive web applications. With expertise in frameworks like React, Laravel, and CodeIgniter, I develop scalable solutions tailored to your business needs.</p>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -296,10 +295,8 @@
                         <div class='service-icon'>
                             <i class='fas fa-desktop'></i>
                         </div>
-                        <h2>website design</h2>
-                        <p>i love working with websites and frameworks, making the ui more attractive. i am always
-                            interested to develop websites from
-                            scratch using different frameworks, as well as working on backend also. </p>
+                        <h2>E-commerce Solutions</h2>
+                        <p>Build or optimize your online store with WooCommerce or custom e-commerce solutions. I help businesses increase conversions by creating seamless, responsive, and secure online shopping experiences.</p>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -308,9 +305,8 @@
                         <div class='service-icon'>
                             <i class='fas fa-database'></i>
                         </div>
-                        <h2>designing</h2>
-                        <p>working with front-end is to attract user more to interface with our webpages. i always
-                            find front-end and ui designing interesting.</p>
+                        <h2>Cloud Solutions & AWS</h2>
+                        <p>I assist with cloud infrastructure setup and management on AWS, ensuring high availability, scalability, and cost optimization for your applications. Let me help you make the most of cloud computing for your business.</p>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -319,9 +315,8 @@
                         <div class='service-icon'>
                             <i class='fab fa-wordpress-simple'></i>
                         </div>
-                        <h2>wordpress</h2>
-                        <p>wordpress is a easy way to build a blog/website but still what and how to build attractive
-                            and secure the website is not a kid game i can handle that.</p>
+                        <h2>API Development</h2>
+                        <p>API development and integration services to connect your web applications with third-party platforms. Whether it’s RESTful or GraphQL APIs, I create robust and scalable connections for your business.</p>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -330,9 +325,8 @@
                         <div class='service-icon'>
                             <i class='fas fa-user'></i>
                         </div>
-                        <h2>support</h2>
-                        <p>support realted any thing technical leave that for me and you will get your solution. yeah
-                            sometime i can also be your mentor.</p>
+                        <h2>Website Optimization</h2>
+                        <p>I provide services to improve your website’s speed, performance, and SEO. With a focus on minimizing load times and improving search engine rankings, I help ensure your website performs at its best.</p>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -341,9 +335,8 @@
                         <div class='service-icon'>
                             <i class='fab fa-medapps'></i>
                         </div>
-                        <h2>embedded system</h2>
-                        <p>have good knowledge in working of arduino, nodemcu, and various
-                            iot device with a perfect project completion.</p>
+                        <h2>UI/UX Design</h2>
+                        <p>I focus on crafting intuitive and user-friendly interfaces that enhance user experiences. By understanding user behavior and leveraging design principles, I ensure your website looks great and is easy to navigate.</p>
                     </div>
                 </div>
             </div>
@@ -352,24 +345,29 @@
     <!--services section end-->
     <!--counter section start-->
     <section class='counter-area pt-100 pb-100'
-        style='background-image: url("")'>
+        style='background-image: url({{ asset("images/project_bg.jpg")  }})'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-3 col-md-6'>
                     <!--stats item-->
+                    <div class='counter-item'>
+                        <h2 class='counter' data-count='5'>100</h2>
+                        <h5>Clients Handled</h5>
+                    </div>
                 </div>
                 <div class='col-lg-5 col-md-6'>
                     <!--stats item-->
                     <div class='counter-item'>
                         <h2 class='counter' data-count='8'>250</h2>
-                        <h5>projects done</h5>
+                        <h5>Projects Completed</h5>
                     </div>
                 </div>
                 <div class='col-lg-3 col-md-6'>
                     <!--stats item-->
-                </div>
-                <div class='col-lg-3 col-md-6'>
-                    <!--stats item-->
+                    <div class='counter-item'>
+                        <h2 class='counter' data-count='10'>250</h2>
+                        <h5>Entriprise Solutions</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -388,10 +386,10 @@
                     </div>
                     <div class='port-filter text-center'>
                         <ul>
-                            <li class='filter-item' data-filter='*'>photography</li>
-                            <li data-filter='.travel'>travel</li>
-                            <li class='filter-item' data-filter='*'>sketching</li>
-                            <li data-filter='.photograph'>painting</li>
+                            <li class='filter-item' data-filter='*'>Software Optimisation</li>
+                            <li data-filter='.travel'>Web Development</li>
+                            <li class='filter-item' data-filter='*'>Sketching</li>
+                            <li data-filter='.photograph'>Team Builder</li>
                         </ul>
                     </div>
                 </div>
@@ -417,38 +415,34 @@
                     <div class='timeline'>
                         <div class='timeline-icon'></div>
                         <div class='timeline-content'>
-                            <span class='date'>dec 2019 - jan 2020</span>
-                            <h5 class='title'>iot</h5>
+                            <span class='date'>March 2024 - Present</span>
+                            <h5 class='title'>Sunfra Technologies</h5>
+                            <span class='date'>Full Stack Developer</span>
                             <p class='description'>
-                                recently worked on women security system device project in a team of 2. which was a
-                                wrist watch or band and have a emergency button. upon pressing it will send user gps
-                                location to nearest policestaion and their family members mobile number too with an
-                                alert sms!!. it can be controlling anywhere as it is portable and wearable. we also hold
-                                top rank in many compettitions.
+                            Working on foreign client projects viz. Fixando, Imovendo, EUPAGO, FLIPAI parallelly. Ongoing projects tech stack includes php, Nodejs, React Js, Laravel 10.0, AWS S3, Cloudfront Integrated Open AI models like hatGPT, Google GEMINI VOIP PBX for automatic lead calling system.
                             </p>
                         </div>
                     </div>
                     <div class='timeline'>
                         <div class='timeline-icon'></div>
                         <div class='timeline-content'>
-                            <span class='date'> 2019- 2020</span>
-                            <h5 class='title'>web developer</h5>
+                            <span class='date'>July 2022 - March 2024</span>
+                            <h5 class='title'>Mantra Labs</h5>
+                            <span class='date'>Software Engineer</span>
                             <p class='description'>
-                                worked on live project for 1 month almost. i developed ui and contributed in front-end
-                                part of official website of organization name career dreams education. also have
-                                developed many websites using node.js, express and heading toward my dream to be
-                                afull-stack developer.
+                            Wokred on Insured Tech project (Care Health Insurance), Ui integration from scratch for newly added products.
+                            Integrated payment gateways such as PayU. Debugging and code reviewing..
                             </p>
                         </div>
                     </div>
                     <div class='timeline'>
                         <div class='timeline-icon'></div>
                         <div class='timeline-content'>
-                            <span class='date'>present</span>
-                            <h5 class='title'>frontend developer</h5>
+                            <span class='date'>Dec 2021 - Jun 2022</span>
+                            <h5 class='title'>Minerva Infotech</h5>
+                            <span class='date'>Full stack developer</span>
                             <p class='description'>
-                                working as frontend developer since 2nd year of my college and keeping my practices on. and as a intern worked on
-                                projects like official webpages of many organizations and ngo.
+                            As a Full Stack Web Developer intern with a WordPress focus, I contributed to an eCommerce project by leveraging WooCommerce plugins, along with Divi and Elementor page builders, to create a highly functional and visually compelling online store. 
                             </p>
                         </div>
                     </div>
@@ -475,35 +469,16 @@
                     <div class='status-msg-wrap'>
                         <div class='status-msg-body'>
                             <a href="https://pianalytix.com/different-industries-depending-on-iot/" target="blank">
-                                different industries depending on iot</a><br>
-                            <a href="https://pianalytix.com/suraksha-the-panic-button/" target="blank"> suraksha one
-                                press rescue</a>
+                                Different industries depending on iot</a><br>
+                            <a href="https://pianalytix.com/suraksha-the-panic-button/" target="blank"> Suraksha one
+                                Press rescue</a>
+                            <a href="https://pianalytix.com/controlling-led-using-voice-assistant/
+                                " target="blank">Controlling led using voice assistant</a><br>
 
-                        </div>
-                        <div class='status-msg-border'>
-                            <div class='status-msg-bg'>
-                                <div class='status-msg-hidden'>
-                                    <a href="https://pianalytix.com/controlling-led-using-voice-assistant/
-                                    " target="blank">controlling led using voice assistant</a><br>
-
-                                    <a href="https://pianalytix.com/project-using-nodemcu/
-                                    " target="blank">project using node-mcu</a>
-
-                                </div>
-                            </div>
+                            <a href="https://pianalytix.com/project-using-nodemcu/
+                            " target="blank">project using node-mcu</a>
                         </div>
                     </div>
-                    <div style='clear: both;'></div>
-                    <div class='row'>
-                        <!--can't find substitution for tag [defaultadstart]-->
-                        <!--can't find substitution for tag [adend]-->
-                    </div>
-                    <div class='blog-pager' id='blog-pager'>
-                        <a class='home-link' href='http://ankan-ghosh.in/'>
-                            home
-                        </a>
-                    </div>
-                    <div class='clear'></div>
                 </div>
             </div>
         </div>
@@ -576,13 +551,12 @@
                 </div>
                 <div class='col-lg-4'>
                     <div class='contact-info'>
-                        <p class='contact-info-title'>feel free to contact.</p>
+                        <p class='contact-info-title'>Feel free to contact.</p>
                         <div class='contact-info-item'>
                             <ul>
                                 <li><i class='fas fa-map-marker-alt'></i> kolkata, west bengal</li>
                                 <li><i class='fas fa-phone'></i> +91 9875509729</li>
                                 <li><i class='fas fa-paper-plane'></i> ankanghosh010@gmail.com</li>
-                                <li><i class='fas fa-globe'></i> https://ankangh001.github.io/portfolio2/</li>
                             </ul>
                         </div>
                         <div class='social-icons mt-15'>

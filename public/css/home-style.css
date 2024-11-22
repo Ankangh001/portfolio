@@ -15411,7 +15411,7 @@ section#home {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     position: relative;
     overflow: hidden;
 }
@@ -17052,4 +17052,23 @@ a.read-more {
     100% {
        top:12%;
     }
+}
+
+.status-msg-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-msg-body a {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 600;
+    color: #007bff;
+    letter-spacing: 2.5px;
+    border: 1px solid #ccc;
+    margin-right: 12px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 2px 6px #00000050;
 }
