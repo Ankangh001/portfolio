@@ -5,7 +5,7 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport' />
     <meta content='text/html; charset=utf-8' http-equiv='content-type' />
     <title>Ankan Ghosh</title>
-    <link href="{{ asset('css/home-style.css') }}" rel='stylesheet' />
+    <link href="{{ asset('css/home-style.css?x=1') }}" rel='stylesheet' />
     <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
