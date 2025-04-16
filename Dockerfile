@@ -1,3 +1,11 @@
+# Stage 1: Build composer dependencies
+FROM composer:latest AS composer_stage
+
+WORKDIR /app
+COPY . /app
+RUN composer install --no-interaction --prefer-dist --optimize-autoloader
+
+# Stage 2: Apache PHP image for Laravel
 FROM php:8.2-apache
 
 RUN apt-get update && apt-get install -y \
@@ -8,13 +16,11 @@ RUN a2enmod rewrite
 
 WORKDIR /var/www/html
 
-COPY . .
+# Copy code from previous stage
+COPY --from=composer_stage /app /var/www/html
 
+# Set permissions
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
-
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
 EXPOSE 80
