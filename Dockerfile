@@ -11,16 +11,17 @@ RUN a2enmod rewrite
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy composer before copying everything else
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-# Copy application code
+# Copy Laravel project files
 COPY . .
 
-# Install PHP dependencies
+# Install Composer manually
+RUN curl -sS https://getcomposer.org/installer | php && \
+    mv composer.phar /usr/local/bin/composer
+
+# Install Laravel dependencies
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
-# Fix permissions
+# Set permissions
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
 
