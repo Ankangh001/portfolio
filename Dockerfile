@@ -14,12 +14,12 @@ WORKDIR /var/www/html
 # Copy Laravel project files
 COPY . .
 
-RUN git config --global --add safe.directory /var/www/html && \
-    composer install --no-interaction --prefer-dist --optimize-autoloader
-    
 # Install Composer manually
 RUN curl -sS https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer
+
+# Set Git safe directory (fix warning)
+RUN git config --global --add safe.directory /var/www/html
 
 # Install Laravel dependencies
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
